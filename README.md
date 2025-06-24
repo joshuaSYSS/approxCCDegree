@@ -15,7 +15,7 @@ Let n<sub>u</sub> be the number of nodes in the connected component where the no
 The number of connected component = sum(1 / n<sub>u</sub>) for all node u.<br>
 Prove:<br>
 See *Source*<br><br>
-Therefore, we can use a subsample to approximate the number of connected components by randomly selecting nodes, and calculating their n<sub>u</sub> through breadth-first search (bfs) to achieve O(n * logn).<br>
+Therefore, we can use a subsample to approximate the number of connected components by randomly selecting nodes, and calculating their n<sub>u</sub> through breadth-first search (bfs) to achieve O((d / ε<sup>2</sup>) * log(d / ε)).<br>
 However, notice that the time complexity bottleneck (linear factor) is at bfs.<br>
 To simplify the condition, I considered an undirected transistive graph.<br><br>
 Lemma 2:<br>
