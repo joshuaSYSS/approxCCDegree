@@ -20,8 +20,8 @@ However, notice that the time complexity bottleneck is at bfs.<br>
 To simplify the condition, I considered an undirected transistive graph.<br><br>
 Lemma 2:<br>
 For an undirected transistive graph, n<sub>u</sub> = degree(u) + 1.<br>
-Prove:<br>
-Trivial<br><br>
+Prove:<br><br>
+Obvious<br><br>
 As a result, I am able to create an implementation that is able to approximate the number of connected components for an undirected transistive graph in sublinear time.
 
 ## Source
