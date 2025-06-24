@@ -1,7 +1,7 @@
 # Approximating the Number of Connected Components on an Undirected Transistive Graph in Sublinear Time
 
 ## How to use it?
-Check `approxCC.cpp` for the code, and `sample.cpp` for a sample implementation.
+Check `approxCCDegree.cpp` for the code, and `sample.cpp` for a sample implementation.
 
 ## Time Complexity
 O(log(d / ε))
