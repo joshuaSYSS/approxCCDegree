@@ -5,7 +5,7 @@ This implementation is based on my [previous](https://github.com/joshuaSYSS/Appr
 
 ## Idea
 As previously mentioned, the number of connected component = sum(1 / n<sub>u</sub>) for all node u on an undirected graph.<br>
-By expanding on this knowledge, and since we know that n<sub>u</sub> = degree(u) + 1 for a transistive undirected graph, I am able to create an implementation that is able to reduce the complexity by removing the time complexity bottleneck, which is the breadth-first search, for approximating the number of connected components for a transistive undirected graph.
+By expanding on this knowledge, and since we know that n<sub>u</sub> = degree(u) + 1 for a transistive undirected graph, I am able to create an implementation that is able to reduce the complexity by removing the time complexity bottleneck, which is the breadth-first search, for approximating the number of connected components for an undirected transistive  graph.
 
 ## Time Complexity
 O(log(d / ε))
