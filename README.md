@@ -1,4 +1,4 @@
-# Approximating the Number of Connected Components on an Undirected Transistive Graph
+# Approximating the Number of Connected Components on an Undirected Transistive Graph in Sublinear Time
 
 ## Source
 This implementation is based on my [previous](https://github.com/joshuaSYSS/ApproxCC) implementation on an undirected graph.
