@@ -1,5 +1,5 @@
 /// <summary>
-/// The main function for approximating the number of connected components on a transistive undirected graph.
+/// The main function for approximating the number of connected components on an undirected transistive graph.
 /// </summary>
 /// <param name="n">The number of nodes</param>
 /// <param name="m">The number of edges</param>
