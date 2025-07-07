@@ -1,4 +1,4 @@
-# Approximating the Number of Connected Components on an Undirected Transistive Graph in Sublinear Time
+# Approximating the Number of Connected Components on an Undirected Transitive Graph in Sublinear Time
 
 ## How to use it?
 Check `approxCCDegree.cpp` for the code, and `sample.cpp` for a sample implementation.
@@ -7,7 +7,7 @@ Check `approxCCDegree.cpp` for the code, and `sample.cpp` for a sample implement
 O(log(d / ε))
 
 ## Approximation Bounds
-The number of connected component is within `εn` with probability `1 - δ`.
+The number of connected components is within `εn` with probability `1 - δ`.
 
 ## Idea
 Lemma 1:<br>
@@ -19,12 +19,12 @@ Therefore, we can use a subsample to approximate the number of connected compone
 However, notice that the time complexity bottleneck (linear factor) is at bfs.<br>
 To simplify the condition, I considered an undirected transistive graph.<br><br>
 Lemma 2:<br>
-For an undirected transistive graph, n<sub>u</sub> = degree(u) + 1.<br>
+For an undirected transitive graph, n<sub>u</sub> = degree(u) + 1.<br>
 Prove:<br>
 It was revealed to me in a dream.<br><br>
-As a result, I am able to create an implementation that is able to approximate the number of connected components for an undirected transistive graph in sublinear time.
+As a result, I am able to create an implementation that is able to approximate the number of connected components for an undirected transitive graph in sublinear time.
 
 ## Source
 This algorithm is based on [Lecture 5: Bounded Degree Graph Algorithms, CSCI 1951-W Sublinear Algorithms for Big Data](https://cs.brown.edu/courses/csci1951-w/lec/lec%205%20notes.pdf), where it introduced approximating numbers of connected components on an undirected graph in general.
 
-Code is implemented on 24th June, 2025, by [Joshua CHOI](https://joshuasyss.github.io/).
+The code is implemented on 24th June 2025 by [Joshua CHOI](https://joshuasyss.github.io/).
